@@ -1,0 +1,17 @@
+{
+    "name": "blu-discord",
+    "description": "This is a module designed to allow interaction with the Discord API.",
+    "dependencies": [
+        "blu-mapper>0.0.1"
+    ],
+    "mapped-dependencies": {
+        "database": {
+            "preferred": "blu-database",
+            "protocol": "blu-database:1"
+        },
+        "permissions": {
+            "preferred": "blu-permissions",
+            "protocol": "blu-permissions:1"
+        }
+    }
+}
